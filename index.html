@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TikTok Downloader</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 TikTok Video Downloader</h1>
+    <p class="subtitle">Unduh video TikTok tanpa watermark secara gratis!</p>
+
+    <form id="download-form">
+      <input type="text" id="url-input" placeholder="Paste link TikTok di sini..." required />
+      <button type="submit">🔍 Cari Video</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <img id="video-thumb" src="" alt="Thumbnail" />
+      <h2 id="video-title"></h2>
+      <p id="video-author"></p>
+      <a id="download-hd" class="btn" download>📥 Download HD</a>
+      <a id="download-normal" class="btn secondary" download>⬇️ Download Normal</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
